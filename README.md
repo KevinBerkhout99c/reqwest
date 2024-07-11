@@ -1,3 +1,107 @@
+# Report for Assignment 1 resit
+
+## Reqwest
+Name: Kevin Berkhout
+
+URL: https://github.com/KevinBerkhout99c/reqwest
+
+Number of lines of code and the tool used to count it: 
+nloc: 15938, counted by lizard
+
+Programming language: rust
+
+## Coverage measurement with existing tool
+the tool i used to measure coverage is tarpaulin
+tarpaulin is a command line tool, the command used to run the tool is cargo tarpaulin –ignore-tests  –out Lcov. Ignore tests causes the tool to not use the test files in the coverage % calcalculations , the out Lcov argument is used to create a coverage log of the result. this is then used by  coverage gutters vscode to display the coverage of individual functions and lines of code.
+
+
+
+
+the change mentioned is some inconsistency in the proxy tests, I did not touch those.
+
+
+## Coverage improvement
+
+### Individual tests
+
+<Fast_random()>
+
+https://github.com/KevinBerkhout99c/reqwest/commit/e26f521565ec09c7ee8105ad586a9a4a4dbc10d8
+
+https://github.com/KevinBerkhout99c/reqwest/commit/eae9aed2ae23fd6e67a6933fa02e78de3a4f945d
+
+the second link is to the uncommenting of the function, since i committed as a commend the first time by accident.
+
+
+
+
+the coverage is increased by 100, as the function goes from untested to tested. that said a part of the tests were already enforced by debug asserts. so it's not fully accurate to say the function started at 0.
+
+
+
+
+<is end stream>
+
+<Show a patch (diff) or a link to a commit made in your forked repository that shows the new/enhanced tests for function 1>
+
+<Provide a screenshot of the old coverage results for such function>
+
+<Provide a screenshot of the new coverage results for such function>
+
+<State the coverage improvement with a number and elaborate on why the coverage is improved>
+
+### Overall
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # reqwest
 
 [![crates.io](https://img.shields.io/crates/v/reqwest.svg)](https://crates.io/crates/reqwest)
