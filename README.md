@@ -14,8 +14,7 @@ Programming language: rust
 the tool i used to measure coverage is tarpaulin
 tarpaulin is a command line tool, the command used to run the tool is cargo tarpaulin –ignore-tests  –out Lcov. Ignore tests causes the tool to not use the test files in the coverage % calcalculations , the out Lcov argument is used to create a coverage log of the result. this is then used by  coverage gutters vscode to display the coverage of individual functions and lines of code.
 
-
-
+![Screenshot 2024-07-11 222046](https://github.com/user-attachments/assets/8b54f163-aa5b-4717-a4d6-ef00ad02da1f)
 
 the change mentioned is some inconsistency in the proxy tests, I did not touch those.
 
@@ -31,6 +30,10 @@ https://github.com/KevinBerkhout99c/reqwest/commit/e26f521565ec09c7ee8105ad586a9
 https://github.com/KevinBerkhout99c/reqwest/commit/eae9aed2ae23fd6e67a6933fa02e78de3a4f945d
 
 the second link is to the uncommenting of the function, since i committed as a commend the first time by accident.
+![util](https://github.com/user-attachments/assets/04badafc-2565-44a9-a041-d37c8319d9fe)
+
+![fast_random_done](https://github.com/user-attachments/assets/b37b0a80-a06a-4b6b-8b23-f224bb7af83a)
+
 
 
 
@@ -52,7 +55,9 @@ the coverage is increased by 100, as the function goes from untested to tested. 
 
 ### Overall
 
+![Screenshot 2024-07-11 222046](https://github.com/user-attachments/assets/acdb103c-02a0-4fd7-b40e-f6b08dfc6aba)
 
+![util_total](https://github.com/user-attachments/assets/f5e9ce43-a42d-41d3-a56b-127fc61bbb5e)
 
 
 
