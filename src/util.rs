@@ -87,3 +87,15 @@ pub(crate) fn replace_headers(dst: &mut HeaderMap, src: HeaderMap) {
         }
     }
 }
+
+/*
+#[cfg(not(target_arch = "wasm32"))]
+#[cfg(test)]
+mod tests {
+    use crate::util::fast_random;
+    #[test]
+    fn test_random() {
+        let random = fast_random();
+        assert_ne!(random, fast_random());
+    }
+}*/
